@@ -298,7 +298,7 @@ Final → “Completed project with analytics”.
 
 ---
 
-## **🚀 N. GitHub Upload Steps **
+## **🚀 N. GitHub Upload Steps**
 ---
 
 Create a new repository on GitHub (without README)
