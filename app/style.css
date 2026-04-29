@@ -1,0 +1,156 @@
+/* ===================== BACKGROUND ===================== */
+.stApp {
+    background:
+        linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)),
+        url("https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1920&q=80");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+/* ===================== LAYOUT ===================== */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* ===================== SIDEBAR ===================== */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, rgba(2,6,23,0.95), rgba(49,46,129,0.95));
+    border-right: 1px solid rgba(255,255,255,0.15);
+}
+
+/* ===================== HERO ===================== */
+.hero {
+    background: linear-gradient(
+        135deg,
+        rgba(37,99,235,0.92),
+        rgba(124,58,237,0.92),
+        rgba(236,72,153,0.92)
+    );
+    padding: 35px;
+    border-radius: 28px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.45);
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.hero h1 {
+    color: white;
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    color: #F8FAFC;
+    font-size: 18px;
+}
+
+/* ===================== GLASS CARDS ===================== */
+.glass-card {
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 24px;
+    border-radius: 22px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.40);
+    backdrop-filter: blur(16px);
+    margin-bottom: 18px;
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+}
+
+/* ===================== METRIC CARDS ===================== */
+.metric-card {
+    padding: 24px;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.45);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: scale(1.05);
+}
+
+/* ===================== COLOR THEMES ===================== */
+.blue {
+    background: linear-gradient(135deg, #2563EB, #06B6D4);
+}
+
+.purple {
+    background: linear-gradient(135deg, #7C3AED, #EC4899);
+}
+
+.orange {
+    background: linear-gradient(135deg, #F97316, #EF4444);
+}
+
+.green {
+    background: linear-gradient(135deg, #16A34A, #22C55E);
+}
+
+.yellow {
+    background: linear-gradient(135deg, #CA8A04, #FACC15);
+}
+
+/* ===================== METRIC TEXT ===================== */
+.metric-value {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.metric-label {
+    font-size: 15px;
+    color: #F8FAFC;
+}
+
+/* ===================== INSIGHTS ===================== */
+.insight {
+    background: rgba(255,255,255,0.13);
+    border-left: 6px solid #38BDF8;
+    padding: 18px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    color: white;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.insight:hover {
+    background: rgba(255,255,255,0.18);
+}
+
+/* ===================== FOOTER ===================== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #CBD5E1;
+}
+
+/* ===================== SCROLLBAR ===================== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    border-radius: 10px;
+}
