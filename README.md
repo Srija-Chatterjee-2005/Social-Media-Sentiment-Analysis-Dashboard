@@ -153,6 +153,7 @@ Business Insights
 ## **📁 G. Folder Structure**
 ---
 
+<img width="758" height="719" alt="image" src="https://github.com/user-attachments/assets/4f6addbc-7b04-41ef-8c29-20ceca335540" />
 
 
 ---
