@@ -369,7 +369,9 @@ git push origin main
 ## **👩‍💻 Q. Author**
 ---
 
-### **Srija Chatterjee**
+### **Built by Srija Chatterjee**
+
+**29th April, 2026**
 
 GitHub: https://github.com/Srija-Chatterjee-2005
 
