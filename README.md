@@ -217,6 +217,8 @@ Single comment sentiment prediction.
 
 Bulk CSV sentiment analysis.
 
+Xquik CSV export normalization for tweet text, timestamps, and source IDs.
+
 Real-time dashboard.
 
 ### **📈 Analytics Features**
@@ -257,6 +259,8 @@ Since real APIs are not used, this project simulates real-world data:
 ### **🔹 Workflow**
 
 Create or upload comments.
+
+Upload saved Xquik tweet exports when social data already exists as CSV.
 
 Clean text.
 
