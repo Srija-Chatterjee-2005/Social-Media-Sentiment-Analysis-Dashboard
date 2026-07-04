@@ -17,6 +17,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 
+from src.xquik_export import normalize_xquik_export_columns
+
 # =====================================================
 # PAGE CONFIG
 # =====================================================
@@ -269,10 +271,10 @@ def create_sample_data():
     return pd.DataFrame({"text": comments})
 
 def normalize_real_dataset(df):
-    df = df.copy()
+    df = normalize_xquik_export_columns(df)
 
     possible_text_columns = [
-        "text", "tweet", "Tweet", "comment", "comments", "Comment",
+        "text", "tweet", "Tweet", "tweet_text", "full_text", "comment", "comments", "Comment",
         "content", "review", "Review", "selected_text",
         "message", "feedback", "Feedback", "body", "post"
     ]
